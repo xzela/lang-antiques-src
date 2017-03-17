@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+table.user_table {
+	padding: 10px;
+	border: 1px solid #919191;
+	background-color: #f1f1f1;
+}
+table.user_table td.title {
+	font-weight: bold;
+	vertical-align: top;
+	text-align: right;
+}

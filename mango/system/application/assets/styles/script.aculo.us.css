@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+
+.inplaceeditor-empty { /* Empty input boxes*/
+	color: #b0b0b0;
+}
+
+
+form.inplaceeditor-form { /* The form */
+
+}
+
+form.inplaceeditor-form input[type="text"].editable_field { /* Input box */
+}
+
+form.inplaceeditor-form textarea { /* Textarea, if multiple columns */
+
+}
+
+form.inplaceeditor-form input[type="submit"] { /* The submit button */
+  margin-left:1em;
+}
+
+form.inplaceeditor-form a { /* The cancel link */
+  margin-left:1em;
+}
+
+
+div.editable_field {
+	border: 1px solid #999999;	
+} 

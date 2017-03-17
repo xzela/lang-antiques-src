@@ -1,0 +1,66 @@
+/*Round Styles */
+/*CSS Round corners */
+span.rtop, span.rbottom {
+	display:block;
+	background-color: #F2E1D7;
+	
+}
+
+span.rtop b, span.rbottom b {
+	display: block;
+	height: 1px;
+    	overflow: hidden;
+	/*background: #9BD1FA;*/
+	background-color: #fff;
+}
+
+b.r1 {
+	margin: 0 5px;
+}
+
+b.r2 {
+	margin: 0 3px;
+}
+
+b.r3 {
+	margin: 0 2px;
+}
+
+span.rtop b.r4, span.rbottom b.r4 {
+	margin: 0 1px;
+	height: 2px;
+}
+
+
+
+
+
+/* Menu Round corners */
+span.mrtop, span.mrbottom {
+	display:block;
+	background: #fff;
+}
+
+#leftnav span.mrtop b, #leftnav span.mrbottom b {
+	display: block;
+	height: 1px;
+    overflow: hidden;
+	background: #F7F5FD;
+}
+
+#leftnav b.mr1 {
+	margin: 0 5px;
+}
+
+#leftnav b.mr2 {
+	margin: 0 3px;
+}
+
+#leftnav b.mr3 {
+	margin: 0 2px;
+}
+
+#leftnav span.mrtop b.mr4, #leftnav span.mrbottom b.mr4 {
+	margin: 0 1px;
+	height: 2px;
+}

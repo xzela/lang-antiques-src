@@ -1,0 +1,68 @@
+/* Style sheet */
+
+body {
+	font: 14px Arial, Geneva, sans-serif;
+	background-color: #F2E1D7;
+	width: 950px;
+	margin: 0 auto;
+}
+
+a {
+	
+	color: #990000;
+	/*color: #0000FF;*/
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CC9999;
+	text-decoration: underline;
+}
+
+.red:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+.warning {
+	color: red;
+}
+
+input, textarea {
+	font-size: 13px;
+	border: 1px solid #999;
+	margin: 1px;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.vendor_logo div {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.vendor_logo img {
+	border: 0px;
+}
+
+
+.button_link {
+	padding: 0px;
+	margin: 0px;
+	color: #990000;
+	background-color: #fff;
+	border: 0px;
+}
+
+.button_link img {
+	padding: 0px;
+	margin: 0px;
+}
+
+.button_link:hover {
+	color: #CC9999;
+	cursor: pointer;
+}

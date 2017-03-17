@@ -1,0 +1,40 @@
+@CHARSET "ISO-8859-1";
+
+table.customer_table {
+	margin: 4px;
+	padding: 4px;
+	border: 1px solid #999;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 99%;
+}
+table.customer_table th {
+	background-color: #ddd;
+	border-bottom: 1px dashed #aaa;
+	padding: 2px;
+	white-space: nowrap;
+}
+table.customer_table td {
+	border-bottom: 1px dashed #ddd;
+	border-right: 1px solid #ddd;
+	padding: 2px;
+	vertical-align: top;
+	background-color: #fff;
+}
+table.customer_table td.end {
+	border-right: 1px solid #999;
+}
+
+table.customer_table td.center {
+	text-align: center;
+}
+
+table.customer_table td.rush_order {
+	background-color: #FFBBBB;
+}
+
+div.new_customer {
+	border: 1px solid #999;
+	margin: 3px;
+	padding: 5px;
+}

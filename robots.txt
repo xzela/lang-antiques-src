@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /mango/
+Disallow: /products/inquire/
+Disallow: /products/email-to-friend/
+Disallow: /products/printer/
+Disallow: /products/add-to-cart/
+Disallow: /shopping/

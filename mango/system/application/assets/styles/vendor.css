@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+table.vendor_table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+}
+table.vendor_table th {
+	background-color: #ddd;
+	border-bottom: 1px dashed #aaa;
+	padding: 2px;	
+}
+table.vendor_table td {
+	border-bottom: 1px dashed #ddd;
+	padding: 2px;
+	vertical-align: top;
+}

@@ -1,0 +1,77 @@
+@CHARSET "ISO-8859-1";
+
+.edit {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;
+}
+
+.edit_money {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;
+}
+.edit_title {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;
+}
+.edit_title:hover {
+	background-color: #FFFF99;
+	color: red;		
+}
+
+.select_edit {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;		
+}
+.textarea_edit {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;	
+}
+.wysiwyg_edit {
+	border: 1px dashed #c0c0c0;
+	background-color: #ffffff;
+	padding: 3px;	
+}
+.edit:hover {
+	background-color: #FFFF99;
+	color: red;
+}
+.edit_money:hover {
+	background-color: #FFFF99;
+	color: red;
+}
+
+.select_edit:hover {
+	background-color: #FFFF99;
+	color: red;		
+}
+.textarea_edit:hover {
+	background-color: #FFFF99;
+	color: red;		
+}
+
+.wysiwyg_edit:hover {
+	background-color: #FFFF99;
+	color: red;		
+}
+
+.inplace_field input {
+	width: 180px;
+	height: 16px;
+	padding: 2px;
+	border: 1px solid red;
+	background-color: #FFFFff;
+}
+.inplace_field select {
+	border: 1px solid red;
+	background-color: #FFFFff;
+}
+
+.inplace_field textarea {
+	border: 1px solid red;
+	background-color: #FFFFff;	
+}

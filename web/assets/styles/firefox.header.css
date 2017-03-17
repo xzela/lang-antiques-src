@@ -1,0 +1,117 @@
+/* Header Stylesheet information */
+
+#header {
+	margin: 0px; 
+	padding: 5px 10px 0 10px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #963D48;
+}
+
+#header img {
+	border: 0px;	
+}
+
+#header ul.utilnav {
+	padding: 0;
+	margin: 0;
+	float:right;
+}
+
+#header ul.utilnav {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#header ul.utilnav li {
+	list-style-type: none;
+	/*padding:  0px 1px 0px 1px; */
+	padding-top: 0px;
+	padding-left: 1px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	/*margin: 0px 0 2px 0; */
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+
+#header ul.utilnav li img {
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header .logo {
+	float: left;
+	padding: 0px;
+	margin: 0px -10px -10px -10px;
+}
+
+#header .text {
+	margin: 0px;
+	margin-left: 200px;
+}
+
+#header .text div.img {
+	text-align: center;
+}
+
+#header .text div {
+	font-family: Palatino Linotype;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#header .text div a { 
+	color: #000000;
+}
+
+#header .text div.large {
+	font-size: 16px;
+	padding-left: 42px;
+}
+
+#header .text div.normal {
+	margin-left: 220px;
+}
+
+#header .text div span {
+	font-style: italic;
+}
+
+div.lower_nav {
+	border-bottom: 1px solid #963D48;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+div.lower_nav ul {
+	padding: 0px;
+	margin: 0px;
+	margin-left: 200px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 12px;
+	height: 20px;
+}
+
+div.lower_nav ul li {
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding: 0px;
+	padding-left: 15px;
+	margin-top: 0px;
+}
+
+div.lower_nav ul li a {
+	color: #000;
+}
+
+div.lower_nav ul li a:hover {
+	color: #CC9999;
+	text-decoration: underline;
+}

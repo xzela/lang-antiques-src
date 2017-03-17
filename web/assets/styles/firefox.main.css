@@ -1,0 +1,99 @@
+/* Styles Containers */
+
+@import url("firefox.header.css");
+@import url("firefox.menu.css");
+@import url("firefox.footer.css");
+@import url("firefox.listings.css");
+
+#container {
+	width: 99%;
+	margin: 15px auto;
+	background-color: #fff;
+	color: #333;
+	background-image:  url('/web/assets/images/background_logo.gif');
+	background-repeat: no-repeat;
+	background-position: 105% 105%;
+}
+
+#content {
+	margin: 0 0 0 180px;
+	padding: 0 10px 0 15px;
+	
+}
+
+#content .breadcrumb {
+	margin: -12px 0 0 -4px;
+	padding:  0px 0px 5px 0px;
+	font-size: 11px;
+}
+
+#content h2.welcome {
+	font-family: Palatino Linotype;
+	font-weight: bold;
+}
+
+#content h3.notice {
+	font-family: Palatino Linotype;
+	font-weight: bold;
+}
+
+#content div.paging {
+	display: block;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#content ul.pagination {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#content ul.pagination img {
+	border: 0px;
+	vertical-align: bottom;
+	
+}
+
+#content ul.pagination li {
+	display: inline;
+	font-size: 20px;
+	
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#content ul.pagination li.paging_end {
+	padding: 0px;
+	vertical-align: bottom;
+	text-decoration: none;
+	border: 0px;
+}
+
+#content ul.pagination li.paging_end img a:hover {
+	text-decoration: none;
+	border: 0px;
+}
+
+#top_h2 {
+	line-height: 22px;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+	margin-left: -4px;
+	margin-bottom: 5px;
+	color: #FFF;
+	border-top: 1px solid #A1735E;
+	background: #BFB0A9 url('/web/assets/images/effects/h2.maroon.background.gif') repeat-x top center;
+	background-color: #fff;
+}
+
+#top_h2 .normal {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.light_text {
+	color: #bbb;
+}

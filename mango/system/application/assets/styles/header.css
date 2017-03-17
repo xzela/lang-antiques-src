@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+#header {
+	border: 1px solid #D0D0D0;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+
+#header div.search_form {
+	
+}
+
+#header h1 {
+	color: #444;
+	background-color: transparent;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+	padding-bottom: 0px;
+	font-size: x-large;
+}
+
+#header h1 img {
+	width: 36px;
+	height: 36px;
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+}

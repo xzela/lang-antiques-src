@@ -1,0 +1,27 @@
+#footer {
+	text-align: center;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	color: #333;
+}
+
+div.imager {
+	width: 500px;
+	margin: 0 auto;
+	height: 80px;
+	background: url('/web/assets/images/image_footer.v2.png') no-repeat;
+}
+
+#footer p {
+	color: #666;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 100px;
+}
+
+#footer p.bottom {
+	border-bottom: 1px solid #963D48;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,186 @@
+@CHARSET "ISO-8859-1";
+
+#item_container {
+	padding: 0px;
+	margin: 0px;
+}
+
+#main_image {
+	width: 500px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main_image img {
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+
+#other_images {
+	float: right;
+	width: 231px;
+	margin-right: -8px;
+}
+
+#other_images img.other {
+	border: 1px solid #ddd;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	/*
+	height: 100px;
+	width: 100px;
+	*/
+}
+
+#item_functions ul {
+	list-style-type: none;
+	border: 1px solid #ddd;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 4px;
+	width: 207px;
+}
+#item_functions ul li {
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+#other_images #item_functions ul li img {
+	border: 0px;
+}
+
+#similar_items {
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+#similar_items img.image {
+	border: 1px solid #aaa;
+	padding: 3px;
+	margin: 3px;	
+}
+
+table.inqury_table {
+	background-color: #ececec;
+	border: 1px solid #ddd;
+	padding: 0px;
+	margin: 0px;
+}
+table.inquiry_table, td.text {
+	vertical-align: top;
+	padding-top: 0px;
+	margin-top: 3px;
+}
+table.inquiry_table, td img {
+	padding: 5px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+
+
+table.form_table {
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+	background-color: #ececec;
+}
+
+table.form_table td.title {
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+	border-right: solid 1px #aaa;
+}
+
+input[type="text"].required, textarea.required {
+	background-color: #ffffcc;
+}
+
+
+label.required {
+	vertical-align: top;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+div.error {
+	padding: 2px;
+	margin: 2px;
+	border: 1px dashed #ff0000;
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+	background-color: #ffcdcd;
+}
+
+span.fake_button {
+	padding: 5px;
+	border: 1px solid #999;
+	background-color: #dadada;
+	
+}
+
+span.fake_button a:hover {
+	color: #990000;
+}
+
+span.fake_button img {
+	vertical-align: bottom;
+	border: 0px;
+}
+
+
+#product_details {
+	width: 300px;
+	padding-top: 5px;
+}
+
+#product_details h3 {
+	padding: 0px;
+	padding-left: 2px;
+	margin: 0px;
+	border: 1px solid #666;
+	border-bottom: 0px;
+	border-top: 0px;					
+	background: url('/web/assets/images/effects/h5.black.background.gif') repeat-x top;
+	color: #fff;
+}
+dl.detail_list {
+	border: 1px solid #666;
+	border-top: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+dl.detail_list dt {
+	padding: 2px;
+	padding-left: 10px;
+	font-weight: bold;
+	background-color: #eee;
+	border-bottom: 1px dashed #999;
+}
+dl.detail_list dd {
+	border-left: 1px dashed #999;
+	padding: 2px;
+}
+
+#gemstone_details {
+	width: 400px;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#gemstone_details h3 {
+	padding: 0px;
+	padding-left: 2px;
+	margin: 0px;
+	border: 1px solid #666;
+	border-bottom: 0px;
+	border-top: 0px;					
+	background: url('/web/assets/images/effects/h5.black.background.gif') repeat-x top;
+	color: #fff;
+}

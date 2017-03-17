@@ -1,0 +1,124 @@
+@CHARSET "ISO-8859-1";
+#leftnav .menu_checkout {
+	padding:0px;
+	margin: 0px;
+	padding-left: 5px;
+}
+.center {
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+}
+	
+.checkout_breadcrumb {
+	padding: 3px;
+	margin: 0px;
+	margin-top: 7px;
+	border: 1px solid #ddd;
+} 
+.checkout_breadcrumb ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.checkout_breadcrumb li {
+	display: inline;
+	padding: 0px;
+	margin: 0px;
+	padding-right: 10px;
+	font-size: 16px;
+}
+
+.checkout_breadcrumb li.selected {
+	font-weight: bold;
+	padding-left: 18px;
+	vertical-align: top;
+	background-image: url(/web/assets/images/icons/pencil.png);
+	background-repeat: no-repeat;			 
+}
+.checkout_breadcrumb li.incomplete {
+	padding-left: 18px;
+	vertical-align: top;
+	background-image: url(/web/assets/images/icons/picture_empty.png);
+	background-repeat: no-repeat;			 
+
+}
+.checkout_breadcrumb li.completed {
+	padding-left: 18px;
+	vertical-align: top;
+	color: #999999;
+	/*text-decoration: line-through;*/
+	background-image: url(/web/assets/images/icons/accept.png);
+	background-repeat: no-repeat;			 
+}
+
+table.cart {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table.cart th {
+	background-color: #ddd;
+}
+table.cart td {
+	vertical-align: top;
+}
+table.cart td img.image {
+	padding: 5px;
+	float: left;
+}
+
+
+table.cart td.title {
+	text-align: right;
+	font-weight: bold;
+}
+
+table.cart td.left {
+	border-left: 1px dashed #ccc;
+}
+
+table.cart td.top {
+	border-top: 1px solid #ddd;
+}
+
+table.cart td.last {
+	border-top: 1px dashed #ccc;
+}
+
+table.checkout_form_table {
+	border: 1px solid #aaaaaa;
+	background-color: #eeeeee;
+	border-collapse: collapse;
+}
+
+table.checkout_form_table .title{
+	text-align: right;
+	vertical-align: top;
+	font-weight: bold;
+	border-right: 1px dashed #ccc;
+}
+
+table.checkout_form_table td.ship_break {
+	border-top: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+table.checkout_form_table td span.faint_text {
+	color: #aaa;
+}
+table button {
+	font-size: 12px;
+	color: #990000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+table button img {
+	vertical-align: top;
+}
